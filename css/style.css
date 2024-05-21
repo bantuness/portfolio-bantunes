@@ -10,6 +10,10 @@ nav{
     text-align: right;
 }
 
+img{
+    height: 60px;
+}
+
 
 a{
     display: inline-flex;

@@ -4,29 +4,35 @@ header{
     background-color: #88CCF1;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
-}
-
-nav{
-    text-align: right;
+    
 }
 
 img{
-    height: 60px;
+    height: 50px;
 }
+
+/*
+Acredito que não será mais necessário, umas vez, que temos o HEADER.
+nav{
+    text-align: right;
+}
+*/
+
+
 
 
 a{
     display: inline-flex;
     align-items: center;
-    color: #fff;
+    color: #000;
     font-size: 20px;
-    font-family: "Fira Code";
+    font-family: "Fira Code", sans-serif;
     font-weight: 500;
-    text-decoration: none;
+    text-decoration: none; /*Undeline*/
     margin-right: 30px;
 }
 
-a::before{
+.cabecalho::before{
     content: "";
     display: inline-block;
     background-color: #2D898B;
@@ -41,7 +47,60 @@ a::before{
     padding: 18px 20px;
     margin-right: 0px;
     box-shadow: 5px 5px 0px #000;
+    transition: 100ms linear;
 }
+
+#button:hover{
+    transform: scale(1.08);
+}
+
+section{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    background-image: url(../assets/img/Bruno\ Antunes.png);
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A4042;
+    height: 184px;
+    width: 627px;
+    font-family: "Press Start 2P", sans-serif;
+    box-shadow: 5px 5px 0 #000;
+    margin-left: 91px;
+    margin-top: 196px;
+}
+
+.cardsmaster{
+    display: flex;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    background-color: #2D898B;
+    box-shadow: 5px 5px 0 #000;
+    width: 170px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 150px;
+    font-weight: 500;
+    transition: 100ms linear;
+}
+
+.cards:hover{
+    transform: scale(1.08);
+}
+
+.buttondc{
+    margin-right: 0PX;
+    font-family: "Fira Code";
+}
+
 
 
 

@@ -11,16 +11,6 @@ img{
     height: 50px;
 }
 
-/*
-Acredito que não será mais necessário, umas vez, que temos o HEADER.
-nav{
-    text-align: right;
-}
-*/
-
-
-
-
 a{
     display: inline-flex;
     align-items: center;
@@ -41,43 +31,11 @@ a{
     margin-right: 10px;
 }
 
-#button{
-    display: inline-block;
-    background-color: #2D898B;
-    padding: 18px 20px;
-    margin-right: 0px;
-    box-shadow: 5px 5px 0px #000;
-    transition: 100ms linear;
-}
-
-#button:hover{
-    transform: scale(1.08);
-}
-
 section{
     height: 700px;
     background-image: url(../assets/img/Bruno\ Antunes.png);
 }
 
-.cards{
-    display: inline-block;
-    background-color: #2D898B;
-    padding: 25px 20px;
-    box-shadow: 5px 5px 0 #000;
-    margin-top: 40px;
-    margin-left: 150px;
-    font-weight: 500;
-    transition: 100ms linear;
-}
-
-.cards:hover{
-    transform: scale(1.08);
-}
-
-.buttondc{
-    margin-right: 0PX;
-    font-family: "Fira Code";
-}
 
 
 

@@ -1,0 +1,14 @@
+#boxe{
+    display: inline-block;
+    text-align: center;
+    background-color: #3A4042;
+    box-shadow: 5px 5px 0 #000;
+    font-family: "Press Start 2P", sans-serif;
+    padding: 42px 44px;
+    margin-left: 91px;
+    margin-top: 196px;
+}
+
+#boxe h1{
+    margin-bottom: 28px;
+}

@@ -55,37 +55,15 @@ a{
 }
 
 section{
-    display: flex;
     height: 700px;
-    flex-direction: column;
     background-image: url(../assets/img/Bruno\ Antunes.png);
 }
 
-#card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #3A4042;
-    height: 184px;
-    width: 627px;
-    font-family: "Press Start 2P", sans-serif;
-    box-shadow: 5px 5px 0 #000;
-    margin-left: 91px;
-    margin-top: 196px;
-}
-
-.cardsmaster{
-    display: flex;
-}
-
 .cards{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     background-color: #2D898B;
+    padding: 25px 20px;
     box-shadow: 5px 5px 0 #000;
-    width: 170px;
-    height: 60px;
     margin-top: 40px;
     margin-left: 150px;
     font-weight: 500;

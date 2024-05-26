@@ -1,5 +1,6 @@
-h1{
+.title{
     color: #2D898B;
     font-size: 40px;
     text-shadow: 5px 5px 0 #000;
+    margin-bottom: 28px;
 }

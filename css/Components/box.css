@@ -1,4 +1,4 @@
-#boxe{
+.boxe{
     display: inline-block;
     text-align: center;
     background-color: #3A4042;
@@ -7,8 +7,4 @@
     padding: 42px 44px;
     margin-left: 91px;
     margin-top: 196px;
-}
-
-#boxe h1{
-    margin-bottom: 28px;
 }

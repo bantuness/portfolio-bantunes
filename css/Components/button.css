@@ -1,15 +1,20 @@
-.buttons{
-    display: inline-block;
+.boxebtn{
+    display: flex;
+    margin-left: 91px;
+    margin-right: 642px;
+    margin-top: 25px;
+    justify-content: space-evenly;
 }
 
 .button{
+    display: inline-block;
     background-color: #2D898B;
     padding: 25px 20px;
     box-shadow: 5px 5px 0 #000;
-    margin-top: 40px;
-    margin-left: 150px;
     font-weight: 500;
     transition: 100ms linear;
+    text-decoration: none;
+    color: #000;
 }
 
 .button:hover{

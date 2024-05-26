@@ -1,0 +1,18 @@
+.action{ 
+    display: inline-flex;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none; /*Undeline*/
+    margin-right: 30px;
+}
+
+.action::before{
+    content: "";
+    display: inline-block;
+    background-color: #2D898B;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}

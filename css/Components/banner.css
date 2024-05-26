@@ -14,9 +14,15 @@
     width: 640px;
 }
 
-/*.banner .box{
+.banner .box{
+    display: inline-block;
+    background-color: #3A4042;
+    box-shadow: 5px 5px 0 #000;
+    text-align: center;
+    padding: 42px 44px;
+    font-family: "Press Start 2P", sans-serif;
     margin-bottom: 40px;
-}*/
+}
 
 .banner .navigation{
     display: flex;

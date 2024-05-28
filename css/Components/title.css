@@ -1,6 +1,6 @@
 .title{
-    color: #2D898B;
+    font-family: "Press Start 2P", sans-serif;
     font-size: 40px;
-    text-shadow: 5px 5px 0 #000;
-    margin-bottom: 28px;
+    color: #fff;
+    margin: 30px;
 }

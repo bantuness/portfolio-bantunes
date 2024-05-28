@@ -1,5 +1,18 @@
 .subtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 15px;
     color: #fff;
-    font-size: 30px;
-    text-shadow: 5px 5px 0 #000;
+    font-family: "Press Start 2P", sans-serif;
+    margin-right: 30px;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.subtitle::after{
+    content: "";
+    background-image: linear-gradient(to right, #88ccf1 var(--white-percentage, 70%), #fff var(--white-percentage, 30%));
+    height: 20px;
+    width: 200px;
+    border: solid 3px #000;
 }

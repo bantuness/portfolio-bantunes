@@ -11,7 +11,7 @@
 
 .subtitle::after{
     content: "";
-    background-image: linear-gradient(to right, #88ccf1 var(--white-percentage, 70%), #fff var(--white-percentage, 30%));
+    background-image: linear-gradient(to right, #88ccf1 var(--white-percentage, 50%), #fff var(--white-percentage, 50%));
     height: 20px;
     width: 200px;
     border: solid 3px #000;

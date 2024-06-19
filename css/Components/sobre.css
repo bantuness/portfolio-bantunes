@@ -1,0 +1,7 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #88CCF1;
+    border-bottom: 10px solid #000;
+}

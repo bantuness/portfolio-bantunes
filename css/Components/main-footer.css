@@ -14,6 +14,3 @@
     justify-content: space-around; /* Espaço entre os elementos */
     gap: 20px; /* Espaço entre os elementos */
 }
-
-.rodape-contato, .rodape-redes-sociais, .rodape-navegacao, .rodape-legais, .rodape-direitos-autorais, .rodape-newsletter, .rodape-mapa {
-    flex: 1 1 200px; /* Responsivo */

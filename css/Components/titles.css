@@ -8,9 +8,27 @@
     padding: 30px;
 }
 
+.titles.-sobra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 5px 5px 0px #000;
+    padding: 0px;
+    margin: 5px;
+}
+
 /* Estilo responsivo */
 @media (max-width: 768px) {
     .titles{
         font-size: 30px;
+    }
+
+    .titles.-sobra{
+        font-size: 30px;
+        padding: 0px;
+        margin-right: 70px;
     }
 }

@@ -67,6 +67,12 @@
 
 /* Estilo Responsivo */
 @media (max-width: 768px) {
+
+    .border-projeto{
+        height: 150px;
+        width: 170px;
+    }
+
     .itens-projeto {
         width: 100%;
     }

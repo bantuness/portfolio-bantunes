@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bruno Antunes</title>
 
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -29,20 +30,35 @@
         <link rel="stylesheet" href="/css/Components/description.css">
         <link rel="stylesheet" href="/css/Components/button-arrow.css">
         <link rel="stylesheet" href="/css/Components/node-card.css">
+        <link rel="stylesheet" href="/css/Components/main-footer.css">
+        <link rel="stylesheet" href="/css/Components/main-contatos.css">
 
     </head>
 
     <body>
+
         <header class="header">
             
             <img class="avatar" src="assets/img/bantunes.png" alt="">
+            
+            <a target="_blank" href="https://www.linkedin.com/in/bruno-antunes-05982593/">
+                <img class="avatar -linkedin" src="/assets/img/Linkedin.png" alt="">
+            </a>
+
+            <a target="_blank" href="https://github.com/bantuness">
+                <img class="avatar -github" src="/assets/img/Github-link.png" alt="">
+            </a>
+
+            <a class="avatar" href="https://wa.me/5513992078247" target="_blank" aria-label="Converse conosco pelo WhatsApp" >
+                <img src="/assets/img/whatsApp.png" alt="">
+            </a>
         
             <nav class="navigation">
-                <a class="action" href="" lang="en">Skills</a>
-                <a class="action" href="">Projetos</a>
-                <a class="action" href="">Sobre</a>
-                <a class="action" href="">Contatos</a>
-                <a class="button" href="" lang="en">Download CV</a>
+                <a class="action" href="#Skills" lang="en">Skills</a>
+                <a class="action" href="#Projetos">Projetos</a>
+                <a class="action" href="#Sobre">Sobre</a>
+                <a class="action" href="#Contatos">Contatos</a>
+                <a class="button" href="/assets/doc/bantunes.pdf" target="_blank" lang="en">Download CV</a>
             </nav>
 
         </header>
@@ -54,14 +70,22 @@
                     <h2 class="job">FrontEnd Developer</h2>
                 </div>
 
-                <div class="navigation">
-                    <a class="button" href="" lang="en">Download CV</a>
-                    <a class="button" href="">Contatos</a>
-                </div>
+                <!--<div class="navigation">
+                    <a class="avatar" href="https://wa.me/5513992078247" target="_blank" aria-label="Converse conosco pelo WhatsApp" >
+                        <img src="/assets/img/whatsApp.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/bruno-antunes-05982593/">
+                        <img class="avatar -linkedin" src="/assets/img/Linkedin.png" alt="">
+                    </a>
+        
+                    <a target="_blank" href="https://github.com/bantuness">
+                        <img class="avatar -github" src="/assets/img/Github-link.png" alt="">
+                    </a>
+                </div>-->
             </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="Skills">
 
             <div class="titles">
                 <h1>Skills</h1>
@@ -72,7 +96,7 @@
                 <div class="list_left">
                     <div class="card">
                         <div class="img">
-                            <img class="html" src="/assets/img/html.png" alt="">
+                            <img class="icon" src="/assets/img/html.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 85%; --blue-percentage: 15%">
                             <h2>HTML</h2>
@@ -81,7 +105,7 @@
                     
                     <div class="card">
                         <div class="img">
-                            <img class="css" src="/assets/img/css.png" alt="">
+                            <img class="icon" src="/assets/img/css.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 85%; --blue-percentage: 15%">
                             <h2>CSS</h2>
@@ -90,7 +114,7 @@
 
                     <div class="card">
                         <div class="img">
-                            <img class="js" src="/assets/img/js.png" alt="">
+                            <img class="icon" src="/assets/img/js.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 50%; --blue-percentage: 50%">
                             <h2>JavaScript</h2>
@@ -99,7 +123,7 @@
 
                     <div class="card">
                         <div class="img">
-                            <img class="sql" src="/assets/img/sql.png" alt="">
+                            <img class="icon" src="/assets/img/sql.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 30%; --blue-percentage: 70%">
                             <h2>SQL</h2>
@@ -108,10 +132,19 @@
 
                     <div class="card">
                         <div class="img">
-                            <img class="excel" src="/assets/img/excel.png" alt="">
+                            <img class="icon" src="/assets/img/excel.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 85%; --blue-percentage: 15%">
                             <h2>VBA</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="img">
+                            <img class="icon" src="/assets/img/Github-projeto.png" alt="">
+                        </div>
+                        <div class="subtitle" style="--white-percentage: 50%; --blue-percentage: 50%">
+                            <h2>GITHUB</h2>
                         </div>
                     </div>
 
@@ -120,7 +153,7 @@
                 <div class="list_center">
                     <div class="card">
                         <div class="img">
-                            <img class="powerapps" src="/assets/img/Power_Apps.png" alt="">
+                            <img class="icon" src="/assets/img/Power_Apps.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 85%; --blue-percentage: 15%">
                             <h2>Power Apps</h2>
@@ -129,27 +162,37 @@
 
                     <div class="card">
                         <div class="img">
-                            <img class="powerautomate" src="/assets/img/Power_Automate.png" alt="">
+                            <img class="icon" src="/assets/img/Power_Automate.png" alt="">
                         </div>
-                        <div class="subtitle" style="--white-percentage: 50%; --blue-percentage: 50%">
+                        <div class="subtitle" style="--white-percentage: 75%; --blue-percentage: 25%">
                             <h2>Power Automate</h2>
                         </div>
                     </div>
 
                     <div class="card">
                         <div class="img">
-                            <img class="sharepoint" src="/assets/img/SharePoint.png" alt="">
+                            <img class="icon" src="/assets/img/SharePoint.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 85%; --blue-percentage: 15%">
                             <h2>Sharepoint</h2>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="img">
+                            <img class="icon" src="/assets/img/Power BI.png" alt="">
+                        </div>
+                        <div class="subtitle" style="--white-percentage: 75%; --blue-percentage: 25%">
+                            <h2>Power BI</h2>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="list_right">
                     <div class="card">
                         <div class="img">
-                            <img class="bubble" src="/assets/img/bubble.png" alt="">
+                            <img class="icon" src="/assets/img/bubble.png" alt="">
                         </div>
                         <div class="subtitle" style="--white-percentage: 70%; --blue-percentage: 30%">
                             <h2>Bubble</h2>
@@ -158,39 +201,43 @@
             </div>
         </section>
 
-        <section class="projetos">
-            <div class="titles">
-                <h1>Projetos</h1>
-            </div>
+        <section class="projetos" id="Projetos">
 
-            <div class="card">
-                <div>
-                    <a target="_blank" href="https://adegapp.bubbleapps.io/version-test">
-                        <img class="adegapp" src="/assets/img/LogoTipo_AdegAppEX1.png" alt="">
-                    </a>
+            <section class="projetos" id="Projetos">
+
+                <h1 class="titles">Projetos</h1>
+    
+                
+                
+                <div class="line-time-projeto">
+    
+                    <button class="button-arrow-projeto -left"><span class="content-projeto">Avançar</span></button>
+    
+                    <div class="itens-projeto">
+                        <div class="elementsp-projeto">
+                            <figure class="node-card-projeto">
+                                <img src="/assets/img/Painel de controle.png" alt="" class="border-projeto">
+                            </figure>
+    
+                            <figure class="node-card-projeto">
+                                <img src="/assets/img/Design_DomRebeiro.png" alt="" class="border-projeto">
+                            </figure>
+
+                    
+                        </div>
+                    </div>
+    
+                        <button class="button-arrow-projeto -right"><span class="content-projeto">Voltar</span></button>
                 </div>
-                <div>
-                    <a href="">
-                        <img class="adegapp" src="/assets/img/LogoTipo_AdegAppEX1.png" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img class="adegapp" src="/assets/img/LogoTipo_AdegAppEX1.png" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img class="adegapp" src="/assets/img/LogoTipo_AdegAppEX1.png" alt="">
-                    </a>
-                </div>
-            </div>
+
+                <script src="/js/components/main-carousel-projeto.js"></script>
+
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="Sobre">
 
             <h1 class="titles">SOBRE</h1>
-            
+
             <p class="description">
                 Meu nome é Bruno Antunes, tenho 30 anos e atualmente estou cursando o 5º semestre de Ciência da Computação. Sou um entusiasta da área de desenvolvimento e tecnologia, sempre buscando novas oportunidades para aplicar e expandir meus conhecimentos.
                 Estou em busca de um estágio na área de desenvolvimento e tecnologia, onde eu possa contribuir com minhas habilidades e aprender com profissionais experientes. Tenho um nível avançado de conhecimento em Power BI, Power Apps, Power Automate, SharePoint e Excel, o que me permite criar soluções eficientes e automatizadas para diversas necessidades empresariais.
@@ -202,28 +249,83 @@
 
                 <button class="button-arrow -left"><span class="content">Avançar</span></button>
 
-                <div class="time">
-                    <figure class="node-card">
-                        <figcaption class="title">2009</figcaption>
-                        <img src="/assets/img/Hamburgsud.png" alt="" class="border">
-                    </figure>
-        
-                    <figure class="node-card">
-                        <figcaption class="title">2023</figcaption>
-                        <img src="/assets/img/Maersk.png" alt="" class="border">
-                    </figure>
+                <div class="itens">
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title">2009</figcaption>
+                            <img src="/assets/img/camps.png" alt="" class="border">
+                        </figure>
+                
+                        <figure class="node-card">
+                            <figcaption class="title">2011</figcaption>
+                            <img src="/assets/img/hamburgsud.png" alt="" class="border">
+                        </figure>
 
-                    <figure class="node-card">
-                        <figcaption class="title">2009</figcaption>
-                        <img src="/assets/img/Hamburgsud.png" alt="" class="border">
-                    </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2023</figcaption>
+                            <img src="/assets/img/maersk.png" alt="" class="border">
+                        </figure>
 
+                    </div>
+                </div>
+
+                    <button class="button-arrow -right"><span class="content">Voltar</span></button>
+            </div>
+
+        </section>
+
+        <script src="/js/components/main-carousel.js"></script>
+
+        <section class="main-contatos" id="Contatos">
+
+            <h1 class="titles">Contatos</h1>
+
+            <form action="" method="get" class="form">
+
+                <div class="nome">
+                  <label for="name">Nome:</label>
+                  <input type="text" name="name" id="name" required />
+                </div>
+
+                <div class="email">
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" required />
+                </div>
+
+
+                <div class="mensagem">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
                 </div>
                 
-                <button class="button-arrow -right"><span class="content">Voltar</span></button>
-
-            </div>
+                <div class="enviar">
+                  <input class="enviar -input" type="submit" value="Enviar!"/>
+                </div>
+              </form>
             
         </section>
+
+        <footer class="rodape">
+            <div class="rodape-conteudo">
+                <div class="rodape-contato">
+                    <p><strong>Email:</strong> contato@meusite.com</p>
+                    <p><strong>Telefone:</strong> +55 (13) 99999-9999</p>
+                </div>
+        
+                <div class="rodape-redes-sociais">
+                    <a href="https://www.linkedin.com/in/bruno-antunes-05982593/" target="_blank" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/bantuness" target="_blank" aria-label="GitHub"><img src="github.png" alt="GitHub"></a>
+                </div>
+        
+                <div class="rodape-navegacao">
+
+        
+                <div class="rodape-direitos-autorais">
+                    <p>&copy; 2024 Bruno Antunes. Todos os direitos reservados.</p>
+                    <p>Desenvolvido por <a href="https://seulink.com" target="_blank">Bruno Antunes</a></p>
+                </div>
+            </div>
+        </footer>
+
     </body>
 </html>

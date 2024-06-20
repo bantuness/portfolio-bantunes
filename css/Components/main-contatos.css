@@ -1,0 +1,31 @@
+.main-contatos{
+    background-color: #3A4042;
+    color: #fff;
+    padding: 25px;
+}
+
+.nome, .email, .mensagem{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#name, #email, #mensagem{
+    
+    border: 2px solid #000;
+}
+
+#mensagem{
+    height: 90px;
+}
+
+.enviar{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 0px;
+}
+
+.enviar.-input{
+    background: #2D898B;
+}

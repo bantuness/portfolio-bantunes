@@ -1,8 +1,10 @@
+
 .node-card{
     display: inline-flex;
+    padding-right: 25px;
+    padding-left: 25px;
     flex-direction: column;
     align-items: center;
-    background-color: blue
 }
 
 .node-card::before{
@@ -14,7 +16,7 @@
     transform: rotate(90deg);
     position: relative;
     bottom: -50px;
-    background-color: yellow;
+  
 }
 
 .node-card .title{
@@ -23,16 +25,26 @@
     color: #2D898B;
     font-family: 'Press Start 2P', sans-serif;
     margin-bottom: 50px;
-    background-color: pink;
+
 }
 
 .border{
-    border: 5px solid;
+    border: 2px solid;
 }
 
 .line-time{
     display: flex;
     align-items: center;
-    padding: 30px;
-    background-color: red;
+    padding: 20px;
+
 }
+
+.itens{
+    
+    overflow: hidden;
+}
+
+.elements{
+    transition: transform 100ms ease-in-out;
+}
+

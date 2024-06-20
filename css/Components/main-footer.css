@@ -1,0 +1,19 @@
+.rodape {
+    font-family: 'Fira Code';
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.rodape-conteudo {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Usa flexbox */
+    flex-wrap: wrap; /* Permite quebra de linha para elementos */
+    justify-content: space-around; /* Espaço entre os elementos */
+    gap: 20px; /* Espaço entre os elementos */
+}
+
+.rodape-contato, .rodape-redes-sociais, .rodape-navegacao, .rodape-legais, .rodape-direitos-autorais, .rodape-newsletter, .rodape-mapa {
+    flex: 1 1 200px; /* Responsivo */

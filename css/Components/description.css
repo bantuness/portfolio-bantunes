@@ -1,7 +1,12 @@
 .description{
-    color: #fff;
+    display: flex;
+    color: #000;
     font-size: 20px;
     font-family: "Fira Code";
     font-weight: 300;
     line-height: 25px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
 }

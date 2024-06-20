@@ -1,50 +1,102 @@
-
-.node-card{
-    display: inline-flex;
-    padding-right: 25px;
-    padding-left: 25px;
-    flex-direction: column;
-    align-items: center;
+/* Estilo Básico */
+.sobre {
+    background-color: #88CCF1;
+    border-bottom: 10px solid #000;
+    padding: 60px;
+    padding-top: 30px;
 }
 
-.node-card::before{
-    content: "";
-    box-sizing: border-box;
-    height: 0px;
-    width: 40px;
-    border: 2.5px dashed #000;
-    transform: rotate(90deg);
-    position: relative;
-    bottom: -50px;
-  
+.titles {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.node-card .title{
-    font-size: 25px;
-    font-weight: 400;
-    color: #2D898B;
-    font-family: 'Press Start 2P', sans-serif;
-    margin-bottom: 50px;
-
-}
-
-.border{
-    border: 2px solid;
-}
-
-.line-time{
+.line-time {
     display: flex;
     align-items: center;
-    padding: 20px;
-
+    justify-content: space-between;
 }
 
-.itens{
-    
+.itens {
     overflow: hidden;
+    width: 85%; /* Ajuste a largura conforme necessário */
 }
 
-.elements{
-    transition: transform 100ms ease-in-out;
+.elementsp {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
 }
 
+.node-card {
+    flex: 0 0 auto; /* Não permitir que os itens encolham ou cresçam */
+    width: 300px; /* Largura fixa dos itens */
+    margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+.border {
+    width: 100%;
+    height: auto;
+    border: 2px solid #2D898B;
+    border-radius: 5px;
+}
+
+.button-arrow {
+    background-color: #88CCF1;
+    border: none;
+    cursor: pointer;
+}
+
+.button-arrow::before {
+    content: "";
+    display: block;
+    border: 25px solid transparent;
+}
+
+.button-arrow.-left::before {
+    border-right: 25px solid white;
+}
+
+.button-arrow.-right::before {
+    border-left: 25px solid white;
+}
+
+.content{
+    display: none;
+}
+
+/* Estilo Responsivo */
+@media (max-width: 768px) {
+    .itens {
+        width: 100%;
+    }
+
+    .node-card {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .node-card {
+        width: 250px;
+    }
+
+    .button-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .button-arrow::before {
+        content: "";
+        display: block;
+        border: 15px solid transparent;
+    }
+    
+    .button-arrow.-left::before {
+        border-right: 15px solid white;
+    }
+    
+    .button-arrow.-right::before {
+        border-left: 15px solid white;
+    }
+}

@@ -4,8 +4,26 @@
     background-color: #88CCF1;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
 }
 
 .avatar{
     height: 55px;
+    margin-right: 10px;
+}
+
+.avatar.-linkedin,
+.avatar.-github {
+    margin-right: 10px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha para elementos */
+    gap: 15px; /* Espaçamento entre elementos */
 }

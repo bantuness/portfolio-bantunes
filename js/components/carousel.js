@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const btnLeft = document.querySelector('.button-arrow.-left');
-    const btnRight = document.querySelector('.button-arrow.-right');
-    const elements = document.querySelector('.elementsp');
-    const itemWidth = document.querySelector('.node-card').offsetWidth + 10; // Inclui margem
-    const totalItems = document.querySelectorAll('.node-card').length;
-    const visibleItems = Math.floor(document.querySelector('.itens').offsetWidth / itemWidth);
+    const btnLeft = document.querySelector('.button-arrow-projeto.-left');
+    const btnRight = document.querySelector('.button-arrow-projeto.-right');
+    const elements = document.querySelector('.elementsp-projeto');
+    const itemWidth = document.querySelector('.node-card-projeto').offsetWidth + 10; // Inclui margem
+    const totalItems = document.querySelectorAll('.node-card-projeto').length;
+    const visibleItems = Math.floor(document.querySelector('.itens-projeto').offsetWidth / itemWidth);
     let currentPosition = 0;
 
     const updatePosition = () => {
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Adiciona um evento para atualizar o itemWidth e o número de itens visíveis ao redimensionar a tela
     window.addEventListener('resize', () => {
-        const itemWidthNew = document.querySelector('.node-card').offsetWidth + 10;
-        const visibleItemsNew = Math.floor(document.querySelector('.itens').offsetWidth / itemWidthNew);
+        const itemWidthNew = document.querySelector('.node-card-projeto').offsetWidth + 10;
+        const visibleItemsNew = Math.floor(document.querySelector('.itens-projeto').offsetWidth / itemWidthNew);
         const newPosition = Math.min(currentPosition, totalItems - visibleItemsNew);
 
         currentPosition = newPosition;
@@ -45,3 +45,4 @@ document.addEventListener('DOMContentLoaded', () => {
         updatePosition();
     }, 5000);
 });
+

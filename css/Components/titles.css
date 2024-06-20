@@ -8,3 +8,9 @@
     padding: 30px;
 }
 
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .titles{
+        font-size: 30px;
+    }
+}

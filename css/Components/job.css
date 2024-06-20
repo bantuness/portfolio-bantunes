@@ -3,3 +3,11 @@
     font-size: 30px;
     text-shadow: 5px 5px 0 #000;
 }
+
+/* Estilo responsivo */
+@media (max-width: 768px){
+    .job{
+        font-size: 10px;
+        text-shadow: 2px 2px 0 #000;
+    }
+}

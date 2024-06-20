@@ -1,19 +1,24 @@
 .list_skills{
     display: flex;
+    justify-content: center;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .list_skills .list_left{
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .list_skills .list_center{
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .list_skills .list_right{
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }

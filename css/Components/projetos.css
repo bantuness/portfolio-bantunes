@@ -68,6 +68,10 @@
 /* Estilo Responsivo */
 @media (max-width: 768px) {
 
+    .line-time-projeto{
+        margin-left: 57px;
+    }
+
     .border-projeto{
         height: 150px;
         width: 170px;
@@ -82,7 +86,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .node-card-projeto {
         width: 250px;
     }

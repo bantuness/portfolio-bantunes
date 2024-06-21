@@ -1,3 +1,4 @@
+
 .action {
     display: inline-flex;
     align-items: center;
@@ -27,6 +28,7 @@
     border-radius: 5px;
 }
 
+
 /* Estilo responsivo */
 @media (max-width: 768px) {
     .header {
@@ -52,25 +54,5 @@
     .action,
     .button {
         margin: 5px 0; /* Espaçamento vertical entre elementos de navegação */
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
-        padding: 10px;
-    }
-
-    .avatar {
-        height: 45px; /* Reduz o tamanho das imagens em telas muito pequenas */
-    }
-
-    .action {
-        font-size: 18px; /* Reduz o tamanho da fonte para melhor legibilidade */
-        margin-right: 0; /* Remove margem lateral em telas muito pequenas */
-    }
-
-    .button {
-        font-size: 18px;
-        padding: 8px 10px; /* Reduz o padding para melhor adaptação em telas menores */
     }
 }

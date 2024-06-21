@@ -8,11 +8,7 @@
     height: 800px;
 }
 
-.banner .wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 640px;
-}
+
 
 .banner .box{
     display: inline-block;
@@ -53,6 +49,6 @@
         padding: 12px 14px;
         font-family: "Press Start 2P", sans-serif;
         margin-bottom: 40px;
-    }
-    
+    }    
 }
+
